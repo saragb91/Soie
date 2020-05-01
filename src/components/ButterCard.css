@@ -1,0 +1,30 @@
+.image {
+    width: 100%;
+    height: 50% ;
+    object-fit: cover;
+    transition: all .5s ease-in-out;
+
+}
+
+.image:hover {
+
+    filter: opacity(.7);
+
+}
+
+.titleButter {
+    font-family: 'Farsan';
+    font-size: 30px;
+    padding: 40px 0 10px;
+    text-align: center;
+    color:#d69a32
+}
+
+.priceButter {
+    font-family: 'Farsan';
+
+    padding: 0 0 40px;
+    text-align: center;
+    color: #a58073;
+    font-size: 25px;
+}
