@@ -5,7 +5,6 @@ import {useRoutes} from 'hookrouter'
 import DetailsButters from './components/DetailButters'
 import Index from './components/Index'
 
-
 const routes={
   "/butters": () => <Butters />,
   "/details/:id" : ({id}) => <DetailsButters productId={parseInt(id)}/>,
@@ -13,18 +12,13 @@ const routes={
 }
 
 
-
 function App() {
-
-
 
   const routeResult= useRoutes(routes)
   return (
 <Fragment>
 
-
 {routeResult}
-
 
 </Fragment>
   );
