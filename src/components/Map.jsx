@@ -24,6 +24,8 @@ const Address = () => {
   //   console.log(latMap[0]);
 
   return (
+
+    
 <div className='containMap'>
     <h2 className='h2Map'>¿Dónde encontrarnos?</h2>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
-
+import PropTypes from "prop-types";
 import "./ButterCard.css";
 
 const ButterCard = ({ name, price, image, id }) => {
@@ -19,5 +19,10 @@ const ButterCard = ({ name, price, image, id }) => {
     
   );
 };
+
+ButterCard.propTypes={
+  message:PropTypes.object.isRequired
+}
+
 export default ButterCard;
 

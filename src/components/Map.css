@@ -32,7 +32,10 @@
 
 .h2Map {
     color: #5d1f0c;
-    padding-top: 60px;
+    font-size: 100px;
+    padding: 50px 0 80px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 .h3Map,
