@@ -1,19 +1,21 @@
-#root{
+
+.butterCont {
     background-image: url('../photo/wood.png');
     width: 100%;
-    background-repeat: round ;
+    background-size: cover;
+    background-repeat: round;
+    padding: 50px;
 }
 
-a{
+.aButterCard {
     border: 20px;
-    color:pink
+    color: pink
 }
 
-h2{
+.h2Butter {
     font-size: 100px;
     padding: 50px 0 100px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    color:#a4ad90
+    color: #a4ad90
 }
-

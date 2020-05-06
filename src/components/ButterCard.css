@@ -3,13 +3,11 @@
     height: 50% ;
     object-fit: cover;
     transition: all .5s ease-in-out;
-
 }
 
 .image:hover {
 
     filter: opacity(.7);
-
 }
 
 .titleButter {
@@ -27,4 +25,13 @@
     text-align: center;
     color: #a58073;
     font-size: 25px;
+}
+
+.col-md-3{
+    padding: 30px
+}
+
+.cardButter{
+    background-color: inherit;
+    border: none
 }

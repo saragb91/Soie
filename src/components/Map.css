@@ -1,0 +1,52 @@
+.containMap {
+    background-image: url('../photo/plantRight.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: round;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.styleMap {
+    height: 500px;
+    width: 90%;
+    margin: 0 10%;
+    align-items: center;
+    border: 2px solid #4ed89c;
+    box-shadow: indianred 50px;
+}
+
+.rowMap {
+    align-items: center;
+    padding: 0 0 5% 0;
+    margin-right: 0;
+}
+
+.colInfo {
+    text-align: center;
+}
+
+.hrMap {
+    width: 10%;
+}
+
+.h2Map {
+    color: #5d1f0c;
+    padding-top: 60px;
+}
+
+.h3Map,
+.pMap {
+    color: #4c1c05
+}
+
+.h3Map {
+    font-family: 'Dancing Script', cursive;
+    font-size: 44px;
+}
+
+.pMap {
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
