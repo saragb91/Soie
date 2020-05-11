@@ -1,5 +1,5 @@
 .divDetail {
-    background-image: url('../photo/coconut.png');
+    background-image: url('../../photo/coconut.png');
     width: 100%;
     background-size: cover;
     background-repeat: round;
@@ -40,6 +40,27 @@
 .imageDetail {
     width: 90%;
 }
+
+.divButtonDetail{
+text-align: center;
+padding-top: 60px;
+}
+
+.buttonDetail{
+    color: rgb(148, 32, 32);
+    border: solid rgb(148, 32, 32) 1px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+}
+
+.buttonDetail:hover {
+    background-color: rgb(148, 32, 32);
+    color:white;
+    text-decoration: none;  
+}
+
 
 
 .h2Detail {
@@ -90,3 +111,4 @@
         transform: rotate(360deg);
     }
 }
+

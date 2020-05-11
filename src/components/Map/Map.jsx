@@ -17,11 +17,9 @@ const Address = () => {
       leng: -3.70073,
     },
   ];
-  console.log(directions[0]);
-
+  
   let latMap = directions.map((elm) => elm.lat);
   let lengMap = directions.map((elm) => elm.leng);
-  //   console.log(latMap[0]);
 
   return (
 
@@ -57,12 +55,12 @@ const Address = () => {
       <h3 className='h3Map'>Soie Fuencarral</h3>
       <p className='pMap'>Calle Fuencarral 36</p>
       <p className='pMap'>Madrid</p>
-      <p className='pMap'>675854725</p>
+      <p className='pMap'>875854725</p>
       <hr className='hrMap'/>
       <h3 className='h3Map'>Soie Serrano</h3>
       <p className='pMap'>Calle Serrano 45</p>
       <p className='pMap'>Madrid</p>
-      <p className='pMap'>672681423</p>
+      <p className='pMap'>872681423</p>
       </Col>
       </Row>
     </div>

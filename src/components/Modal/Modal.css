@@ -1,0 +1,26 @@
+.imageModal{
+    height: 100px;
+    width: 70%;
+}
+
+.cardModal, .nameModal, .priceModal, .detailModal{
+    text-align: center;
+}
+
+.detailModal{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.cardModal{
+    padding: 15px 0;
+}
+
+.nameModal{
+    font-family: 'Mali', cursive;
+}
+
+.priceModal{
+    font-family: 'Farsan';
+    font-size: 25px;
+}

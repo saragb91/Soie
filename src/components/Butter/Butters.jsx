@@ -2,7 +2,7 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import "./Butters.css";
 import ButterCard from "./ButterCard";
-import ButList from "./ButList";
+import ButList from "../ButList";
 
 const Butters = () => {
 

@@ -21,7 +21,10 @@ const ButterCard = ({ name, price, image, id }) => {
 };
 
 ButterCard.propTypes={
-  message:PropTypes.object.isRequired
+  name:PropTypes.string.isRequired,
+  price:PropTypes.number.isRequired,
+  image:PropTypes.string.isRequired,
+  id:PropTypes.number.isRequired
 }
 
 export default ButterCard;

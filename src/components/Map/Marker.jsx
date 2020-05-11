@@ -15,7 +15,8 @@ const Marker = ({ color, name}) => {
 }
 
 Marker.propTypes={
-  message:PropTypes.string.isRequired
+  color:PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
 }
 
 export default Marker;
