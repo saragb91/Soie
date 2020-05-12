@@ -30,7 +30,6 @@ function App() {
     }
   },[bodyMilks, bodyMilksInitial])
   
-  //Función para coger las cremas actuales y agregue la nueva crema
   const saveBodyMilk = bodyMilk=> {
     setBodyMilk([
       ...bodyMilks,
@@ -38,7 +37,6 @@ function App() {
     ])
   }    
 
-  //Eliminar manteca de favoritos
   const deleteButter= (id)=>{
     const clearButter = bodyMilks.filter(butter=> butter.id !== id)
     setBodyMilk(clearButter)
