@@ -1,7 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+//STYLE
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
-import PropTypes from "prop-types";
 import "./ButterCard.css";
 
 const ButterCard = ({ name, price, image, id }) => {
@@ -9,11 +11,11 @@ const ButterCard = ({ name, price, image, id }) => {
   return (
     <Col md={3}>
       <Card className='cardButter'>
-      <a  className='aButterCard' href={`/details/${id}`}>
-        <Card.Img className="image" src={image}></Card.Img>
-      </a>
-      <Card.Title className="titleButter">{name}</Card.Title>
-      <Card.Text className="priceButter">{price}€</Card.Text>
+        <Link to={`/details/${id}`} className='linkCard'>
+          <Card.Img className="image" src={image}></Card.Img>
+          <Card.Title className="titleButter">{name}</Card.Title>
+          <Card.Text className="priceButter">{price}€</Card.Text>
+        </Link>
       </Card>
     </Col>
     

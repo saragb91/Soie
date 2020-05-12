@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import ButList from "../ButList";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
+//STYLE
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import PropTypes from "prop-types";
 import "./DetailButters.css";
-import { Link } from "react-router-dom";
 
 const DetailsButters = (props) => {
 
@@ -15,17 +16,15 @@ const DetailsButters = (props) => {
       (b) => b.id === parseInt(props.match.params.id)
       ).pop();
       setTimeout(() => setButter(search), 1000);
-     
+  });
     
-      
-    }, []);
-    
-    
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      props.saveBodyMilk(butter)
-};
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    props.saveBodyMilk(butter)
+  };
 
+  const isButter= butters=> butters.name===butter.name
 
   return (
     <>
@@ -46,6 +45,7 @@ const DetailsButters = (props) => {
             </div>
 
             <h2 className="h2Detail">{butter.name}</h2>
+
             <Row className="rowDetail">
               <Col md={4} className="colDetail">
                 <img className="imageDetail" src={butter.image} alt="" />
@@ -55,9 +55,17 @@ const DetailsButters = (props) => {
               </Col>
             </Row>
             <div className="divButtonDetail">
-              <Link onClick={handleSubmit} className="buttonDetail">
-                Añadir a favoritos
-              </Link>
+
+              {props.bodyMilks.find(isButter) ?
+              
+                <p className="buttonGrey">Ya está en favoritos</p> 
+                
+                :
+
+                <Link onClick={handleSubmit} className="buttonDetail">
+                  Añadir a favoritos
+                </Link>
+              }   
             </div>
           </>
         )}
@@ -68,6 +76,7 @@ const DetailsButters = (props) => {
 
 DetailsButters.propTypes = {
   saveBodyMilk: PropTypes.func.isRequired,
+  bodyMilks: PropTypes.array.isRequired,
 };
 
 export default DetailsButters;

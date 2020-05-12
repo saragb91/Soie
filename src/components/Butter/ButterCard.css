@@ -5,7 +5,6 @@
 }
 
 .image:hover {
-
     filter: opacity(.7);
 }
 
@@ -31,5 +30,9 @@
 
 .cardButter{
     background-color: inherit;
-    border: none
+    border: none;
+}
+
+.linkCard:hover{
+    text-decoration-color: burlywood;
 }

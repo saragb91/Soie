@@ -1,26 +1,58 @@
-.imageModal{
-    height: 100px;
-    width: 70%;
+.imageModal {
+    height: 90px;
+    width: 60%;
 }
 
-.cardModal, .nameModal, .priceModal, .detailModal{
+.cardModal,
+.nameModal,
+.priceModal,
+.detailModal {
     text-align: center;
 }
 
-.detailModal{
+.detailModal {
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
 }
 
-.cardModal{
+.cardModal {
     padding: 15px 0;
 }
 
-.nameModal{
+.nameModal {
     font-family: 'Mali', cursive;
 }
 
-.priceModal{
+.priceModal {
     font-family: 'Farsan';
     font-size: 25px;
+}
+
+.pModal {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.colModal{
+    padding: 0;
+}
+
+.clearModal{
+    align-self: center;
+    padding: 0 0 0 30px;
+}
+
+.modalIcon {
+    color: red;
+    background-color: white;
+    border-color: white;
+    transition: all .1s ease-in-out;
+    font-size: 2rem;
+}
+
+.modalIcon:hover{
+    background-color: white;
+    border-color: red;
+    color:red;
 }
