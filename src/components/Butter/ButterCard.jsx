@@ -14,8 +14,8 @@ const ButterCard = ({ name, price, image, id }) => {
         <Link to={`/details/${id}`} className='linkCard'>
           <Card.Img className="image" src={image}></Card.Img>
           <Card.Title className="titleButter">{name}</Card.Title>
-          <Card.Text className="priceButter">{price}€</Card.Text>
         </Link>
+          <Card.Text className="priceButter">{price}€</Card.Text>
       </Card>
     </Col>
     

@@ -15,7 +15,7 @@ const DetailsButters = (props) => {
     const search = ButList.filter(
       (b) => b.id === parseInt(props.match.params.id)
       ).pop();
-      setTimeout(() => setButter(search), 1000);
+      setTimeout(() => setButter(search), 1200);
   });
     
   

@@ -33,6 +33,11 @@
     border: none;
 }
 
+.linkCard{
+    text-decoration-color: wheat;
+    transition: all .7s ease-in-out;
+}
+
 .linkCard:hover{
     text-decoration-color: burlywood;
 }

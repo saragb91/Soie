@@ -22,7 +22,7 @@ const ModalButter = ({modalVisibility, closeModal, bodyMilk, deleteButter}) => {
           :
           bodyMilk.map(butter=>
             <Card className='cardModal'>
-              <Row>
+              <Row className='rowModal'>
                 <Col md={2} className='clearModal'>
                   <Button onClick={()=>deleteButter(butter.id)} className="material-icons modalIcon">clear</Button>
                 </Col>

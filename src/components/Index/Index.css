@@ -34,6 +34,8 @@
     background-color: #d08432;
     border-radius: 5px;
     padding:15px;
+    transition: all 1.5s;
+
 }
 
 .buttonIndex:hover {

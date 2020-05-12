@@ -10,7 +10,7 @@ const Index = () => {
         <h2 className="h2Index">
           Las mantecas corporales Soie están hechas artesalmente, con los
           mejores productos naturales y de proximidad. Además cuenta con el
-          sello free-cruelty
+          sello cruelty-free
         </h2>
         <div className="textIndex">
           <Link to="/butters" className="buttonIndex">
