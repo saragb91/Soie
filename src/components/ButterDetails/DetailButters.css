@@ -25,6 +25,13 @@
 .aDetail {
     border-bottom: #b86332 1px solid;
     font-size: 15px;
+    transition: all 1.5s;
+}
+
+.aDetail:hover{
+    color: #ce6e36;
+    text-decoration: none;
+    
 }
 
 .positionLink {
